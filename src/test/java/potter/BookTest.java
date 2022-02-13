@@ -102,7 +102,7 @@ public class BookTest {
     }
 
     @Test
-    public void should_return_40_for_five_similar_books() {
+    public void ShouldReturn40ForFiveSameBooks() {
         //when
         double price1 = book.price(BOOK_1, BOOK_1, BOOK_1, BOOK_1, BOOK_1);
         //then
@@ -110,7 +110,7 @@ public class BookTest {
     }
 
     @Test
-    public void should_apply_5Percent_for_two_different_books() {
+    public void ShouldApply5PercentForTwoDifferentBooks() {
         //when
         double price = book.price(BOOK_1, BOOK_2);
         //then
@@ -128,7 +128,7 @@ public class BookTest {
     }
 
     @Test
-    public void should_apply_10Percent_for_three_different_books() {
+    public void ShouldApply10PercentForThreeDifferentBooks() {
         //when
         double price = book.price(BOOK_1, BOOK_2, BOOK_3);
         //then
